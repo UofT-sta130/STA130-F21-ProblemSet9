@@ -1,6 +1,6 @@
 ---
 title: "STA130H1F -- Fall 2021"
-author: "Your name"
+author: "Your name here"
 subtitle: Module 9 Problem Set
 output:
   pdf_document: 
@@ -9,10 +9,7 @@ urlcolor: blue
 ---
 
 ```{r, echo=FALSE, include=FALSE}
-library(tidyverse)
 library(knitr)
-library(rpart)
-library(partykit)
 opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
