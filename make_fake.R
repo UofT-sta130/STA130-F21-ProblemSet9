@@ -5,8 +5,8 @@ sim <- uoft_covid %>%
   select(-3) %>% 
   uncount(cases) %>% 
   mutate(
-    gender = sample(c("m", "f", "non-binary", "not listed"), 
-                    prob = c(50, 50, 1, 1),
+    gender = sample(c("m", "f", "non-binary", "not listed", "prefer not to say"), 
+                    prob = c(50, 50, 2, 2, 2),
                     size = nrow(.), 
                     replace = T),
     age = sample(c("17 and younger", "18", "19", "20", "21", "22", "23", "24",  "25 and older"), 

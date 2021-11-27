@@ -31,9 +31,9 @@ There are two parts to your problem set. One is largely R-based with short writt
 
 ```{r setup}
 library(tidyverse)
-# If polite or rvest aren't't found, uncomment and run the following
-# install.packages("rvest")
-# install.packages("polite")
+# If polite or rvest aren't found, uncomment and run the following
+# install.packages("rvest", repos='http://cran.us.r-project.org')
+# install.packages("polite", repos='http://cran.us.r-project.org')
 library(polite)
 library(rvest)
 ```
